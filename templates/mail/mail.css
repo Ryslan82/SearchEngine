@@ -1,0 +1,11 @@
+.class_mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rgb(0, 83, 0) 1px solid;
+}
+.vse_mail {
+    margin: 5px;
+    border: darkblue 1px solid;
+}

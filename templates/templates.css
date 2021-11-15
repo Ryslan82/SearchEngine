@@ -1,0 +1,22 @@
+.class_root {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows:  1fr 2fr 1fr; 
+   
+}
+.class {
+    border: 1px solid darkblue;
+    min-width: 100px;
+    width: auto;
+	min-height: 100px;
+    height: auto;
+    margin: 10px;
+}
+.class2 { 
+  grid-row: 1;
+  grid-column: 2 / 4
+  }  
+.class6 { 
+  grid-row: 3;
+  grid-column: 1 / 4;
+  }  
